@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 330px;
+  top: 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 280px;
+  bottom: 300px;
+}
+
+.top-container {
+  background-color: #eae7d9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #eae7d9;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+}
+
+.hobby1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.hobby2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #A5A990;
+  background-image: -webkit-linear-gradient(top, #A5A990, #D3E3E2);
+  background-image: -moz-linear-gradient(top, #A5A990, #D3E3E2);
+  background-image: -ms-linear-gradient(top, #A5A990, #D3E3E2);
+  background-image: -o-linear-gradient(top, #A5A990, #D3E3E2);
+  background-image: linear-gradient(to bottom, #A5A990, #D3E3E2);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: solid #A7ABB1 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #CFCFC4 1px;
+  background: #B9C7C7;
+  background-image: -webkit-linear-gradient(top, #B9C7C7, #B8C9C8);
+  background-image: -moz-linear-gradient(top, #B9C7C7, #B8C9C8);
+  background-image: -ms-linear-gradient(top, #B9C7C7, #B8C9C8);
+  background-image: -o-linear-gradient(top, #B9C7C7, #B8C9C8);
+  background-image: linear-gradient(to bottom, #B9C7C7, #B8C9C8);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #006600;
+  font-size: 0.75rem;
+  padding: 15px;
+}
+
+h1 {
+  /* PENTRU SIZING DINAMIC */
+  /* 100%-> 16px pt font. ca sa facem 90px pentru font-> 90/16=56.2 */
+  /* la fel 1 em= 16px, rem e root em ( si ramane stabil chiar daca schimbam in body dimensiunea) */
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #8db1ab;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #8db1ab;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #9bbab5;
+}
+
+a {
+  color: #9bbab5;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #006600;
+}
+
+p {
+  line-height: 2;
+  /* face dinstanta intre randuri dubla */
+}
+
+hr {
+  border: dotted #bac7a7 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
